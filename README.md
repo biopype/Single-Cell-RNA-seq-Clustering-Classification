@@ -30,11 +30,12 @@ The dataset contains heterogeneous immune cell populations including T cells, B 
 ```
 ├── scproj01final.ipynb          # Main notebook with complete analysis
 ├── README.md                     # This file
-├── accuracy_comparison.png       # Model accuracy comparison chart
-├── f1_comparison.png            # Model F1 score comparison chart
-├── confusion_matrix.png         # Deep learning confusion matrix
-├── training_curves.png          # Training loss and validation accuracy curves
-└── per_class_metrics.png        # Per-class precision, recall, F1 scores
+└── results/                      # Output visualizations
+    ├── accuracy_comparison.png       # Model accuracy comparison chart
+    ├── f1_comparison.png            # Model F1 score comparison chart
+    ├── confusion_matrix.png         # Deep learning confusion matrix
+    ├── training_curves.png          # Training loss and validation accuracy curves
+    └── per_class_metrics.png        # Per-class precision, recall, F1 scores
 ```
 
 ##  Methodology
