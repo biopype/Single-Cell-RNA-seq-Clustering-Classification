@@ -28,7 +28,7 @@ The dataset contains heterogeneous immune cell populations including T cells, B 
 ##  Project Structure
 
 ```
-├── scproj01final.ipynb          # Main notebook with complete analysis
+├── code-scRNAseq-clustering-classification.ipynb          # Main notebook with complete analysis
 ├── README.md                     # This file
 └── results/                      # Output visualizations
     ├── accuracy_comparison.png       # Model accuracy comparison chart
@@ -123,7 +123,7 @@ pip install scanpy anndata torch umap-learn seaborn leidenalg \
 ### Running the Notebook
 
 ```bash
-jupyter notebook scproj01final.ipynb
+jupyter notebook code-scRNAseq-clustering-classification.ipynb
 ```
 
 The notebook is organized into sequential cells that can be run from top to bottom:
